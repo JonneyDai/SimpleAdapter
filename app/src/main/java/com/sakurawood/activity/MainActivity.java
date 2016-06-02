@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Toast;
 
 
-import com.sakurawood.library.SimpleAdapter;
-import com.sakurawood.library.SimpleViewHolder;
+import com.sakurawood.simpleadapter.SimpleAdapter;
+import com.sakurawood.simpleadapter.SimpleViewHolder;
 
 import java.util.ArrayList;
 import java.util.List;

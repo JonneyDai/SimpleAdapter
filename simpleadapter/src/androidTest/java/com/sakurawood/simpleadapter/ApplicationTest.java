@@ -1,4 +1,4 @@
-package com.sakurawood.library;
+package com.sakurawood.simpleadapter;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
