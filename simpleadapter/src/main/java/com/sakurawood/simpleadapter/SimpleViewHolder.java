@@ -116,6 +116,9 @@ public class SimpleViewHolder extends RecyclerView.ViewHolder {
         return this;
     }
 
-
-
+    public SimpleViewHolder setBackgroundResource(int viewId,int ResId){
+        View view=getView(viewId);
+        view.setBackgroundResource(ResId);
+        return this;
+    }
 }

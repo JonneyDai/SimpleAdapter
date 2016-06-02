@@ -17,7 +17,7 @@ public abstract class SimpleAdapter<T> extends RecyclerView.Adapter {
     private int mlayoutResId;
     private List<T> mdata;
     private LayoutInflater mLayoutInflater;
-    /**Item的clicklistener*/
+    /**clicklistener of item*/
     private OnRecyclerViewItemClickListener onRecyclerViewItemClickListener;
 
     @Override
@@ -43,7 +43,7 @@ public abstract class SimpleAdapter<T> extends RecyclerView.Adapter {
     }
 
     /**
-     * 初始化Item的clicklistener
+     * initialize clicklistener
      * @param vh
      */
     private void initItemClickListener(final SimpleViewHolder vh) {
@@ -83,7 +83,7 @@ public abstract class SimpleAdapter<T> extends RecyclerView.Adapter {
     }
 
     /**
-     * 设置item的clicklistener
+     * set clicklistener of item
      * @param onRecyclerViewItemClickListener
      */
     public void setOnRecyclerViewItemClickListener(OnRecyclerViewItemClickListener onRecyclerViewItemClickListener) {
@@ -94,7 +94,5 @@ public abstract class SimpleAdapter<T> extends RecyclerView.Adapter {
         public void onClick(View view, int position);
         public boolean onLongClick(View view, int position);
     }
-
-
 
 }
