@@ -1,2 +1,5 @@
 # SimpleAdapter
-An Adapter for RecyclerView
+A SimpleAdapter for RecyclerView
+
+
+
