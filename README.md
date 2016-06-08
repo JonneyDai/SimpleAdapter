@@ -10,20 +10,20 @@ A SimpleAdapter for RecyclerView
 ##Get it
 * Gradle
 ```
-compile 'com.sakurawood:simpleadapter:1.0.3'
+compile 'com.sakurawood:simpleadapter:1.0.4'
 ```
 * Maven
 ```
 <dependency>
   <groupId>com.sakurawood</groupId>
   <artifactId>simpleadapter</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <type>pom</type>
 </dependency>
 ```
 * Ivy
 ```
-<dependency org='com.sakurawood' name='simpleadapter' rev='1.0.3'>
+<dependency org='com.sakurawood' name='simpleadapter' rev='1.0.4'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>
 ```
